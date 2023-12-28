@@ -11,6 +11,6 @@ Currently, two official plugins are available:
 
 
 #Paquetes usados
-Fancyboy
-Swipper
-React Router DOM
+- Fancyboy
+-  Swipper
+- React Router DOM
