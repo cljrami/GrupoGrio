@@ -1,0 +1,63 @@
+#NuestroDirectorio h2 {
+    font-size: var(--default-h2-size);
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: var(--grey);
+
+
+}
+
+#NuestroDirectorio h3 {
+    font-size: var(--default-h3-size);
+    font-weight: 700;
+    color: var(--black-blue)
+}
+
+.SwiperNuestroDirectorio {
+    margin: 20px 0 20px 0;
+    cursor: ew-resize;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+}
+
+.swiper-slide {
+
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.swiper-slide h2 {
+    font-size: var(--default-h2-size);
+
+}
+
+.swiper-slide h3 {
+    font-size: var(--default-h3-size);
+
+
+}
+
+.Datos {
+    width: 100%;
+    text-align: center;
+}
+
+.Datos p {
+    font-size: var(--default-font-size);
+    margin: 0;
+
+
+}

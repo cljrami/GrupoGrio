@@ -1,0 +1,50 @@
+#VideoHome {
+    margin: 20px 0 20px 0;
+
+
+}
+
+#VideoHome h2 {
+    font-size: var(--default-h2-size);
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: var(--grey);
+
+}
+
+#VideoHome h3 {
+    font-size: --var(--default-h3-size);
+    font-weight: 600;
+    color: var(--black-blue)
+}
+
+.Play {
+    position: relative;
+
+
+}
+
+.Boton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    color: #fff;
+
+    width: 100%;
+    font-size: var(--default-h1-size);
+}
+
+.Boton:hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    color: red;
+
+    width: 100%;
+}

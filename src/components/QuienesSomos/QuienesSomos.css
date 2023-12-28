@@ -1,0 +1,8 @@
+ #QuienesSomos {
+     margin: 40px 0 40px 0;
+ }
+
+ #QuienesSomos h2 {
+     font-size: var(--default-h2-size);
+     font-weight: 600;
+ }

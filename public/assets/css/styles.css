@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Source+Sans+3&display=swap');
+/*--------------------------------------------------------------
+## VARIABLES
+----------------------------------------------------------------*/
+
+:root {
+    --main-bg-color: #fff;
+    --default-font: 'Poppins', sans-serif;
+    --FontAwesome: 'FontAwesome';
+    --default-font-size: 16px;
+    --default-font-color: #000;
+    --default-hover-text: #c00707;
+    --default-h1-size: 14vmin;
+    --default-h2-size: 3vmin;
+    --default-h3-size: 5vmin;
+    /*TOP TOP SCROLL*/
+    --red: #da2c4d;
+    --yellow: #f8ab37;
+    --green: #2ecc71;
+    --white: #ffffff;
+    --grey-light: #f2f7f9;
+    --grey: #a3a3a3;
+    --black: #080808;
+    --black-blue: #001F3F;
+    --black-blue-light: #353746;
+    --black-blue-light-2: #404255;
+    --black-blue-light-3: #4b4d64;
+    --black-light: #424455;
+    --bg-hero-image-home: url('https://en.marksist.net/sites/mtw7/files/images/dpozntvw0aexssg-ozvg.jpg');
+
+
+
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+## CSS BASICO
+----------------------------------------------------------------*/
+
+body,
+html {
+
+    font-weight: 400;
+    color: var(--default-font-color);
+    /* line-height: 1.6em; */
+    overflow-x: hidden;
+    background-color: var(--main-bg-color);
+    font-family: var(--default-font);
+    font-size: var(--default-font-size);
+    scroll-behavior: smooth;
+    margin: 0 !important
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--default-hover-text) !important;
+}
+
+/*--------------------------------------------------------------
+## SECCIONES
+----------------------------------------------------------------*/
+.main {
+    margin-top: 80px;
+}
